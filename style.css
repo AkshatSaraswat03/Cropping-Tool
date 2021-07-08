@@ -1,0 +1,51 @@
+body{
+  margin:0;
+  padding: 0;
+}
+.container{
+  display: flex;
+}
+.container .o_image{
+  width: 50%;
+  border-right: 1px solid;
+}
+.container .p_image{
+  width: 50%;
+  border-left: 1px solid;
+  text-align: center;
+}
+
+img{
+  border: 1px solid black;
+}
+.b_container{
+  text-align: center;
+  width: 100%;
+}
+button{
+  width: 80px;
+  height: 30px;
+  border: none;
+  background-color: coral;
+  
+}
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.line {
+  stroke: rgb(62, 158, 62);
+  stroke-width: 0.7px;
+  stroke-linecap: square;
+}
+
+.handle {
+  fill: greenyellow;
+  pointer-events: all;
+  stroke:greenyellow;
+  stroke-width: 2px;
+  cursor: move;
+  opacity: 0.8;
+}
